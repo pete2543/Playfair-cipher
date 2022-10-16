@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <form class="form-horizontal" method="POST" enctype="multipart/form-data">
+            
+            <div class="input-group">
+                <h1>Plain text
+              <input 
+                type="text"
+                class="form-control rounded"
+                placeholder="text"
+                aria-label="Search"
+                aria-describedby="search-addon"
+                name="Plain_text"
+                id="Plain_text"
+                rows="1"
+                required
+              ></input>
+            </h1>
+           
+              <h1>Key
+              <input 
+                type="text"
+                class="form-control rounded"
+                placeholder="text"
+                aria-label="Search"
+                aria-describedby="search-addon"
+                name="key"
+                id="key"
+                rows="1"
+                required
+              ></input>
+              </h1>
+              Choose to cut J or Q.
+              <select name="JorQ" id="JorQ">
+                <option value="J">J</option>
+                <option value="Q">Q</option>
+             
+              </select>
+
+              <button
+                type="submit"
+                class="btn btn-outline-primary"
+                name="action"
+                id="button_sub"
+                value="button_sub"
+              >
+                #submit
+              </button>
+            </div>
+          </form>
+
+          <h1>Cipher Text : {{Cipher_Text}}</1>
+        <script src="" async defer></script>
+    </body>
+</html>
